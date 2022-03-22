@@ -11,7 +11,7 @@
         android:theme="@style/Theme.MyApplication">
         <activity
             android:name=".Tutorial_03"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActivityTwo"
             android:exported="false" />
