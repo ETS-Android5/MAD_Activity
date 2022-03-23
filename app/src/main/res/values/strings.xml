@@ -5,4 +5,9 @@
     <string name="t_num1" />
     <string name="t_num2" />
     <string name="btn_ok">OK</string>
+    <string name="tv_answer" />
+    <string name="btn_add">+</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_multi">*</string>
+    <string name="btn_divi">%</string>
 </resources>
