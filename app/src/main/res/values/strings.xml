@@ -15,4 +15,5 @@
     <string name="b1">Play</string>
     <string name="bpause">Pause</string>
     <string name="bstop">Stop</string>
+    <string name="buttonim">Capture</string>
 </resources>

@@ -18,12 +18,21 @@ public class MediaPlayer extends AppCompatActivity {
 
     public void play (View view){
         if(mediaPlayer == null){
-            mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.song);
+            MediaPlayer.create(getApplicationContext(),R.raw.song);
             mediaPlayer.start();
 
         }else{
             mediaPlayer.start();
         }
+    }
+
+    //method
+    private void start() {
+    }
+
+    //method
+    private static MediaPlayer create(Context applicationContext, int song) {
+        return null;
     }
 
     public void pause(View view){
@@ -32,8 +41,16 @@ public class MediaPlayer extends AppCompatActivity {
         }
     }
 
+    //method
+    private void pause() {
+    }
+
     public void stop(View view){
         mediaPlayer.release();
         mediaPlayer = null;
+    }
+
+    //method
+    private void release() {
     }
 }

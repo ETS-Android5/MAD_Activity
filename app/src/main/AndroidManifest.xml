@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".CamaraTest"
+            android:exported="false" />
+        <activity
             android:name=".MediaPlayer"
             android:exported="true" />
         <activity
