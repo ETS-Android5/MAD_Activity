@@ -18,7 +18,7 @@ public class MediaPlayer extends AppCompatActivity {
 
     public void play (View view){
         if(mediaPlayer == null){
-            mediaPlayer = MediaPlayer.create(getApplicationContext());
+            mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.song);
             mediaPlayer.start();
 
         }else{
