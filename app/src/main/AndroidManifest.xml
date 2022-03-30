@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name=".ImageHandling"
+            android:exported="true" />
+        <activity
             android:name=".LabSheet_04"
             android:exported="false" />
         <activity
             android:name=".CamaraTest"
             android:exported="false" />
-        <activity
-            android:name=".MediaPlayer"
-            android:exported="true" />
         <activity
             android:name=".Tutorial_03_Activity02"
             android:exported="true" />
