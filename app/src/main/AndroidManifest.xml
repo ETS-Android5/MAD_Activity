@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".MediaPlayer"
+            android:exported="true" />
+        <activity
             android:name=".Tutorial_04"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Tutorial_03_Activity02"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Tutorial_03"
             android:exported="true" />

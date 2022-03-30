@@ -12,4 +12,7 @@
     <string name="btn_divi">%</string>
     <string name="btn_div">/</string>
     <string name="te_calculater">Opening Calculator</string>
+    <string name="b1">Play</string>
+    <string name="bpause">Pause</string>
+    <string name="bstop">Stop</string>
 </resources>
