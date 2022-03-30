@@ -16,4 +16,6 @@
     <string name="bpause">Pause</string>
     <string name="bstop">Stop</string>
     <string name="buttonim">Capture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
