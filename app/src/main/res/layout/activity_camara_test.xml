@@ -10,7 +10,9 @@
         android:id="@+id/imageView2"
         android:layout_width="343dp"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+
+        />
 
     <Button
         android:id="@+id/buttonim"
